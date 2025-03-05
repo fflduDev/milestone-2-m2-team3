@@ -74,7 +74,7 @@ public class TestHarness {
 
 	public static void TEST_Equals(Contact r1, Contact r2) {
 
-		System.out.println("Checking r1.equals(r2) for: \n" + r1.toString() + "\n" + r2.toString());
+		System.out.println("Checking if Contacts " + r1.toString() + " and " + r2.toString() + " are the same");
 		System.out.println(r1.equals(r2));
 
 		System.out.println();

@@ -26,6 +26,14 @@ class PhonebookEntry{
     public String getType() {
         return type;
     }
+
+    public String setPhoneNumber(String phoneNumber) {
+        return this.phoneNumber = phoneNumber;
+    }
+
+    public String setType(String type) {
+        return this.type = type;
+    }
     
 
 

@@ -34,7 +34,28 @@ class Contact {
         return name;
     }
 
+    @Override
+    public String toString(){
+        for(PhonebookEntry entry : phonebookEntries){
+            System.out.println(entry.getPhoneNumber() + " " + entry.getType());
+        }
+        return name;
+    }
 
+    @Override
+    public boolean equals(Object obj) {
+        if (obj == this) {
+            return true;
+        }
+        if (!(obj instanceof Contact)) {
+            return false;
+        }
+        Contact contact = (Contact) obj;
+        return name.equals(contact.name);
+    }
 
-
+    @Override
+    public int hashCode() {
+        return name.hashCode();
+    }
 }
