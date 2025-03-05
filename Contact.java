@@ -30,4 +30,11 @@ class Contact {
         phonebookEntries.add(new PhonebookEntry(phoneNumber, type));
     }
 
+    public String getName() {
+        return name;
+    }
+
+
+
+
 }

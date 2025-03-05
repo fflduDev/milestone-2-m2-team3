@@ -23,13 +23,11 @@ class PhonebookEntry{
         return phoneNumber;
     }
 
-    public String setPhoneNumber() {
-        return phoneNumber;
-    }
-
     public String getType() {
         return type;
     }
+    
+
 
     
     

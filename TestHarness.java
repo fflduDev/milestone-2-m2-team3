@@ -1,4 +1,5 @@
 
+
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -30,7 +31,7 @@ public class TestHarness {
 		TEST_hashcode(p2, p3);
 
 		//Create the phonebook handler
-		phonebookHander = new PhonebookHandler(phonebook);
+//		phonebookHander = new PhonebookHandler(phonebook);
 		
 		//TODO
 		//call 
@@ -46,7 +47,7 @@ public class TestHarness {
 
 	}
 
-	// 
+	 
 	public static List<Contact> TEST_Sort(PhonebookHandler phonebookHandler) {
 		//TODO: call your phonebookHander & have it sort the contacts.  Return those.
 		
