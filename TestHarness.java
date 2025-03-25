@@ -74,11 +74,13 @@ public class TestHarness {
 	}
 
 	public static void TEST_Equals(Contact r1, Contact r2) {
+		System.out.println("------------------");
+		System.out.println("Checking r1.equals(r2) for: \n" + r1.getName() + " / " + r2.getName());
 		System.out.println(r1.toString());
 
 		System.out.println(r2.toString());
 		System.out.println(r1.equals(r2));
-
+		System.out.println("------------------");
 		System.out.println();
 	}
 
