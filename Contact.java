@@ -36,10 +36,11 @@ class Contact {
 
     @Override
     public String toString(){
+        System.out.println(name);
         for(PhonebookEntry entry : phonebookEntries){
             System.out.println(entry.getPhoneNumber() + " " + entry.getType());
         }
-        return name;
+        return "";
     }
 
     @Override

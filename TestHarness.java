@@ -26,8 +26,9 @@ public class TestHarness {
 		//TODO: 2 cases:
 		//display hashcode case that demonstrates collision
 		//display hashcode case that demonstrates non- collision
-
+		System.out.println("Checking r1.hashcode = r2.hashcode for:");
 		TEST_hashcode(p1, p3);
+		System.out.println("Checking r1.hashcode = r2.hashcode for:");
 		TEST_hashcode(p2, p3);
 
 		//Create the phonebook handler
@@ -73,8 +74,9 @@ public class TestHarness {
 	}
 
 	public static void TEST_Equals(Contact r1, Contact r2) {
+		System.out.println(r1.toString());
 
-		System.out.println("Checking if Contacts " + r1.toString() + " and " + r2.toString() + " are the same");
+		System.out.println(r2.toString());
 		System.out.println(r1.equals(r2));
 
 		System.out.println();
